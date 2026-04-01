@@ -716,6 +716,16 @@ To begin monitoring your Kubernetes cluster, you'll install the Prometheus Node 
 
     ```bash
     helm repo add prometheus-community https://prometheus-community.github.io/helm-charts
+    kubectl create namespace prometheus-node-exporter
+    helm repo update
+    helm install prometheus-node-exporter prometheus-community/prometheus-node-exporter --namespace prometheus-node-exporter
+    kubectl get ns
+    kubectl get pods -n prometheus-node-exporter
+    export ARGOCD_SERVER=$(kubectl get svc argocd-server -n argocd -o json | jq -r '.status.loadBalancer.ingress[0].hostname')
+    export ARGOCD_SERVER=$(kubectl get svc argocd-server -n argocd -o jsonpath='{.status.loadBalancer.ingress[0].hostname}')
+    echo $ARGOCD_SERVER
+    export ARGO_PWD=$(kubectl -n argocd get secret argocd-initial-admin-secret -o jsonpath="{.data.password}" | base64 -d)
+    echo $ARGO_PWD
     ```
 
 2. Create a Kubernetes namespace for the Node Exporter:
