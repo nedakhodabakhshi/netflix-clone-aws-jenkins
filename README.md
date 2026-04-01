@@ -90,6 +90,10 @@ docker build --build-arg TMDB_V3_API_KEY=<your-api-key> -t netflix .
         
         publicIP:9000 (by default username & password is admin)
       <div align="center">
+         <img src="./screenshots/01-Instances.png" width="100%">
+         <img src="./screenshots/02-EIPs.png" width="100%">
+         <img src="./screenshots/03-Security-Groups.png" width="100%">
+         <img src="./screenshots/04-Jenkins.png" width="100%">  
          <img src="./screenshots/11-SonarQube.png" width="100%">
         <p>ArgoCD Application Deployment - Netflix App (Healthy & Synced)</p>
       </div>
