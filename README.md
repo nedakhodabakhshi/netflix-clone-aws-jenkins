@@ -691,7 +691,16 @@ That's it! You've successfully installed and set up Grafana to work with Prometh
 
 # Phase 6: Kubernetes
 
-## Create Kubernetes Cluster with Nodegroups
+## Create Kubernetes Cluster with Nodegroups  
+  <div align="center">
+         <img src="./screenshots/12-Cluster-Node-01.png" width="100%">
+         <img src="./screenshots/13-Kube-Node-ns.png" width="100%">
+         <img src="./screenshots/14-LoadBalancer.png" width="100%">
+         <img src="./screenshots/15-Node-Exporter-on-eks-9100.png" width="100%">  
+         <img src="./screenshots/16-ArgoCD-App.png" width="100%">
+         <img src="./screenshots/17-Netflix-app-EKS.png" width="100%">
+
+  </div>
 
 In this phase, you'll set up a Kubernetes cluster with node groups. This will provide a scalable environment to deploy and manage your applications.
 
