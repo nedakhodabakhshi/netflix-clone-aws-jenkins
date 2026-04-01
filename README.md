@@ -99,8 +99,8 @@ docker build --build-arg TMDB_V3_API_KEY=<your-api-key> -t netflix .
          <img src="./screenshots/07-Prometheus.png" width="100%">
          <img src="./screenshots/08-Node-exporter-targets.png" width="100%">
          <img src="./screenshots/09-Prometheus-Dashboard.pngg" width="100%">  
-         <img src="./screenshots/10-Netflix-app-jenkins.png" width="100%">
          <img src="./screenshots/11-SonarQube.png" width="100%">
+         <img src="./screenshots/10-Netflix-app-jenkins.png" width="100%">
 
       </div>
         
