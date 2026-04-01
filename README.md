@@ -94,8 +94,14 @@ docker build --build-arg TMDB_V3_API_KEY=<your-api-key> -t netflix .
          <img src="./screenshots/02-EIPs.png" width="100%">
          <img src="./screenshots/03-Security-Groups.png" width="100%">
          <img src="./screenshots/04-Jenkins.png" width="100%">  
+         <img src="./screenshots/05-Jenkins-Pipeline.png" width="100%">
+         <img src="./screenshots/06-monitoring-sg.png" width="100%">
+         <img src="./screenshots/07-Prometheus.png" width="100%">
+         <img src="./screenshots/08-Node-exporter-targets.png" width="100%">
+         <img src="./screenshots/09-Prometheus-Dashboard.pngg" width="100%">  
+         <img src="./screenshots/10-Netflix-app-jenkins.png" width="100%">
          <img src="./screenshots/11-SonarQube.png" width="100%">
-        <p>ArgoCD Application Deployment - Netflix App (Healthy & Synced)</p>
+
       </div>
         
         To install Trivy:
